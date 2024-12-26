@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+    zoom: 55%;
+    overflow-x: hidden;
+    transform-origin: top left;
+    display: flex;
+}
+
+
+.nav-bar {
+    position: absolute;
+    width: 149px;
+    height: 1336px;
+    top: 0;
+    left: 0;
+    background-color: #f9f9f9;
+}
+
+ .main-home {
+    position: absolute;
+    width: 91px;
+    height: 62px;
+    top: 166px;
+    left: 25px;
+    border-radius: 30px;
+}
+
+ .home {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 15px;
+    left: 31px;
+    object-fit: cover;
+}
+
+.star {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 270px;
+    left: 54px;
+}
+
+ .setting {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 364px;
+    left: 54px;
+}
+
+ .owl {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    top: 38px;
+    left: 45px;
+}
+
+.resta-page {
+    margin-top: 50px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.resta-page .container {
+    background-color: #ffffff;
+    width: 2014px;
+    height: 1336px;
+    position: relative;
+}
+
+.resta-page .add {
+    position: absolute;
+    width: 117px;
+    top: 866px;
+    left: 290px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #b1b1b1;
+    font-size: 30px;
+    letter-spacing: 600;
+    line-height: 42.0px;
+}
+
+.resta-page .add-icon {
+    position: absolute;
+    width: 100px; 
+    height: 100px; 
+    top: 853px; 
+    left: 153px; 
+    background-color: #ffce33;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resta-page .icon-x {
+    width: 70%; 
+    height: 70%;
+    object-fit: contain;
+}
+
+
+
+.resta-page .title {
+    position: absolute;
+    top: 80px;
+    left: 596px;
+    font-family: "Inter", Helvetica;
+    font-weight: bold;
+    color: #000000;
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+
+.resta-page .adresse h3{
+    position: absolute;
+    top: 369px;
+    left: 605px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #747171;
+    font-size: 30px;
+    letter-spacing: 0.80px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+.resta-page .adresse img {
+    margin-top: 30px;
+}
+
+
+.resta-page .release h4 {
+    position: absolute;
+    top: 456px;
+    left: 605px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #574949;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.resta-page .restau-cover {
+    position: absolute;
+    width: 359px;
+    height: 549px;
+    top: 105;
+    left: 103;
+}
+
+.resta-page img.restau-cover {
+    border-radius: 30px;
+    margin-left: 110px;
+    margin-top: 100px;
+}
+
+.resta-page .speciality {
+    position: absolute;
+    width: 189px;
+    height: 78px;
+    top: 235px;
+    left: 376px;
+    border-radius: 100px;
+
+}
+
+.resta-page .speciality p {
+    font-family: 'Inter', serif;
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+    color: #747171;
+}
+
+
+.resta-page .speciality div {
+    display: flex;
+    gap: 15px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.resta-page .speciality div h3 {
+    font-family: "Inter", serif;
+    font-size: 30px;
+    color: #6B6B6B;
+}
+
+.resta-page .speciality div hr {
+    width: 2px;
+    height: 35px;
+    color: #E8E8E8;
+    margin-left: 30px;
+}
+
+.resta-page .speciality div h4 {
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: "Inter", serif;
+    color:  #000000;
+    font-weight: 600;
+}
+
+.resta-page .speciality div img {
+    margin-top: 3px;
+    width: 32px;
+    height: 28px;
+}
+
+
+.resta-page .specia-button {
+    position: absolute;
+    width: 118px;
+    top: 22px;
+    left: 35px;
+    font-family: "Inter", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0.50px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+button.specia-button {
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+button.website-button {
+    padding-top: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button.phone-button {
+    margin-bottom: 120px;
+    border: none;
+    background-color: rgb(241, 0, 0);
+    color: white;
+}
+
+
+.resta-page .description {
+    position: absolute;
+    width: 1214px;
+    top: 610px;
+    left: 607px;
+    font-family: "Inter", Helvetica;
+    font-weight: 500;
+    color: #505050;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 1.5;
+    white-space: normal;
+
+}
+
+
+.resta-page h2 span .keyword {
+    font-weight: 600;
+}
+
+.resta-page .description-2 {
+    font-size: 35px;
+}
+
+
+.resta-page .website {
+    position: absolute;
+    width: 385px;
+    height: 86px;
+    top: 730px;
+    left: 101px;
+    background-color: #FF9E67;
+    border-radius: 20px;
+}
+
+.resta-page .website-button {
+    position: absolute;
+    width: 138px;
+    top: 17px;
+    left: 124px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 30px;
+    letter-spacing: 0.60px;
+    white-space: nowrap;
+    border: none;
+    background-color: #FF9E67;
+}
+
+.resta-page .call {
+    position: absolute;
+    width: 385px;
+    height: 86px;
+    top: 830px; 
+    left: 101px;
+    background-color: #ffffff; 
+    border-radius: 20px;
+    border: solid 1px #e3e3e3;
+}
+
+
+.resta-page .call-button {
+    position: absolute;
+    width: 138px;
+    top: 22px;
+    left: 124px;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 0.60px;
+    white-space: nowrap;
+    background: none;
+    border: none;
+}

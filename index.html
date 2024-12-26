@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;900&display=swap" rel="stylesheet">
+    <title>DineFind</title>
+</head>
+<body>
+    <header>
+        <a href="#"><img src="img/logo.png" alt="logo"></a>
+        <button class="main-button">Find</button>
+    </header>
+
+    <main>
+        <h1>Searching for restaurants<br><span> made easy.</span></h1>
+        <p>Find the perfect restaurant effortlessly with tailored results at your fingertips!</p>
+        <input type="search" name="search" id="search" placeholder="Search restaurants...">
+    </main>
+
+
+
+    <section class="restaurant">
+        <h2>Restaurant List</h2>
+
+
+        <div class="cards" id="results">
+            <div class="list-1" id="restaurant-list"></div>
+        </div>
+        
+    </section>
+<script src="fetch.js"></script>
+
+</body>
+
+</html>

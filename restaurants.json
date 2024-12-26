@@ -1,0 +1,163 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Le Gourmet Delights",
+      "address": "123 Avenue Mohammed V, Tanger, Morocco",
+      "specialty": "French Cuisine",
+      "rating": 4.7,
+      "reviews": [
+        {
+          "author": "Youssef El Amrani",
+          "content": "Un excellent repas dans une ambiance raffinée. Je recommande vivement!",
+          "rating": 5
+        },
+        {
+          "author": "Fatima Bennis",
+          "content": "Super expérience, mais le service pourrait être amélioré.",
+          "rating": 4
+        }
+      ],
+      "description": "Le Gourmet Delights est connu pour sa cuisine française authentique et son ambiance chic.",
+      "website": "https://www.legourmetdelights.ma",
+      "phone": "+212 539-123456",
+      "image": "img/gourmet.webp"
+    },
+    {
+      "id": 2,
+      "name": "Sushi Tanger",
+      "address": "45 Boulevard Pasteur, Tanger, Morocco",
+      "specialty": "Japanese Cuisine",
+      "rating": 4.8,
+      "reviews": [
+        {
+          "author": "Khalid Jebbar",
+          "content": "Le meilleur sushi de Tanger! Fraîcheur exceptionnelle.",
+          "rating": 5
+        }
+      ],
+      "description": "Découvrez l'art du sushi avec des ingrédients frais et un service exceptionnel.",
+      "website": "https://www.sushitanger.ma",
+      "phone": "+212 539-789123",
+      "image": "img/casa-andalus.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Dar Tangerina",
+      "address": "10 Rue de la Kasbah, Tanger, Morocco",
+      "specialty": "Moroccan Cuisine",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "author": "Sara Mahjoubi",
+          "content": "Un goût authentique de la cuisine marocaine. Magnifique!",
+          "rating": 5
+        },
+        {
+          "author": "Mohammed Chraibi",
+          "content": "Un bon restaurant, mais les portions pourraient être plus grandes.",
+          "rating": 4
+        }
+      ],
+      "description": "Un voyage culinaire à travers la gastronomie marocaine dans un cadre traditionnel.",
+      "website": "https://www.dartangerina.ma",
+      "phone": "+212 539-456789",
+      "image": "img/sushi.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Pizzeria Bella Italia",
+      "address": "67 Rue Anoual, Tanger, Morocco",
+      "specialty": "Italian Cuisine",
+      "rating": 4.3,
+      "reviews": [
+        {
+          "author": "Hassan Taoufik",
+          "content": "La meilleure pizza de la ville! Délicieux et abordable.",
+          "rating": 5
+        },
+        {
+          "author": "Imane El Kadi",
+          "content": "Bon goût mais service un peu lent.",
+          "rating": 3
+        }
+      ],
+      "description": "Savourez des pizzas artisanales et des pâtes fraîches dans une ambiance conviviale.",
+      "website": "https://www.bellaitaliapizza.ma",
+      "phone": "+212 539-654321",
+      "image": "img/tangerina.jpg"
+    },
+    {
+      "id": 5,
+      "name": "The Tangier Steakhouse",
+      "address": "22 Avenue des FAR, Tanger, Morocco",
+      "specialty": "Steakhouse",
+      "rating": 4.6,
+      "reviews": [
+        {
+          "author": "Nadia Lahlou",
+          "content": "Des steaks parfaitement cuits avec un excellent service!",
+          "rating": 5
+        }
+      ],
+      "description": "Le paradis des amateurs de viande avec des steaks juteux et savoureux.",
+      "website": "https://www.tangiersteakhouse.ma",
+      "phone": "+212 539-987654",
+      "image": "img/locean.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Vegan Paradise",
+      "address": "8 Rue Idriss Al Akbar, Tanger, Morocco",
+      "specialty": "Vegan Cuisine",
+      "rating": 4.9,
+      "reviews": [
+        {
+          "author": "Zineb Jafari",
+          "content": "Le meilleur endroit pour les amateurs de nourriture saine et délicieuse.",
+          "rating": 5
+        }
+      ],
+      "description": "Un menu entièrement végétalien conçu pour ravir les papilles et respecter la planète.",
+      "website": "https://www.veganparadise.ma",
+      "phone": "+212 539-111222",
+      "image": "img/vegan paradise.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Tangier Coffee & Bakery",
+      "address": "5 Place du Marché, Tanger, Morocco",
+      "specialty": "Coffee & Pastries",
+      "rating": 4.2,
+      "reviews": [
+        {
+          "author": "Omar Rafiq",
+          "content": "Un excellent café avec des pâtisseries fraîches.",
+          "rating": 4
+        }
+      ],
+      "description": "Un endroit chaleureux pour savourer un bon café et des pâtisseries maison.",
+      "website": "https://www.tangiercoffee.ma",
+      "phone": "+212 539-555666",
+      "image": "img/steck.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Fusion Asia",
+      "address": "99 Rue de Gibraltar, Tanger, Morocco",
+      "specialty": "Asian Fusion",
+      "rating": 4.5,
+      "reviews": [
+        {
+          "author": "Sophia Mouline",
+          "content": "Une explosion de saveurs asiatiques dans chaque plat!",
+          "rating": 5
+        }
+      ],
+      "description": "Une fusion de cuisines asiatiques offrant des plats uniques et créatifs.",
+      "website": "https://www.fusionasia.ma",
+      "phone": "+212 539-777888",
+      "image": "img/sushi.jpg"
+    }
+  ]
+}

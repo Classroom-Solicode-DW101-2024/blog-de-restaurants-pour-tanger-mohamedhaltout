@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    zoom: 0.80;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-family: "Inter", serif;
+    font-size: 37px;
+    color: #444444;
+    font-weight: 800;
+    margin: 40px 50px 30px 40px;
+}
+
+.header img {
+    width: 4%;
+    height: 4%;
+    margin: 30px 40px 40px 40px;
+}
+
+.Dashboard{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.Dashboard .total {
+    background-color: #fdf3ed;
+    padding: 60px 150px 60px 150px;
+    border-radius: 12px;
+    border: solid #DCDCDC 1.4px;
+    box-shadow: 2px -1px 11px 2px rgba(165, 165, 165, 0.11);
+}
+
+.Dashboard .total h3 {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+    color: #FF9E67;
+}
+
+.Dashboard .total h4 {
+    color: #FF9E67;
+    font-size: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+.Dashboard .add {
+    background-color: #e1e1e1;
+    padding: 50px 120px 50px 120px;
+    border-radius: 12px;
+    border: solid #DCDCDC 1.4px;
+    box-shadow: 2px -1px 11px 2px rgba(165, 165, 165, 0.11);
+}
+
+.Dashboard .add-new {
+    background-color: #737373;
+    padding: 50px 120px 50px 120px;
+    border-radius: 12px;
+    border: solid #DCDCDC 1.4px;
+    box-shadow: 2px -1px 11px 2px rgba(165, 165, 165, 0.11);
+}
+
+.Dashboard .add h3 {
+    color: #979797;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.Dashboard .add h4 {
+    color: #737373;
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+ }
+
+ .Dashboard .add-new h3 {
+    color: #ffffff;
+    font-size: 45px;
+    margin: 0;
+    padding: 0;
+}
+
+.Dashboard .add-new h4 {
+    color: #ffffff;
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+ }
+
+.resta-card {
+    display: flex;
+    background-color: #ffffff;
+    border: solid #DCDCDC 1.4px;
+    box-shadow: 2px -1px 11px 2px rgba(165, 165, 165, 0.11);
+    border-radius: 7px;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+
+.resta-card h3 {
+    color: #444444;
+    padding-left: 30px;
+    padding-top: 16px;
+}
+
+.resta-card h4 {
+    color: #444444;
+    padding-top: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 30px;
+    margin-top: 23px;
+}
+
+
+.resta-title h2{
+    font-size: 30px;
+    color: #757575;
+    margin-left: 44px;
+    margin-top: 120px;
+}
+
+
+.resta-card img {
+width: 12%;
+    border-radius: 7px 0 0 7px;
+}
+
+.resta-card .rating {
+    display: flex;
+}
+
+.resta-card .rating img {
+    width: 25%;
+    height: 20%;
+    margin-left: 10px;
+    padding-top: 38px;
+}
+
+.resta-card .buttons {
+    margin-top: 18px;
+    margin-right: 30px;
+}
+
+.resta-card .buttons img {
+    padding-top: 17px;
+}
+
+.add-one {
+    display: flex;
+    justify-content: center;
+}
+
+.add-form {
+    margin: 20px;
+    padding: 20px;
+    padding-right: 40px;
+    border: solid #DCDCDC 1.4px;
+    box-shadow: 2px -1px 11px 2px rgba(165, 165, 165, 0.11);
+    border-radius: 8px;
+    background-color: #ffffff;
+    max-width: 600px;
+}
+
+.add-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.add-form input, .add-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.add-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF9E67;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.add-form button:hover {
+    background-color: #FF9E67;
+}
+
